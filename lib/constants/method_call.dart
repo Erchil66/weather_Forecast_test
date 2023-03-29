@@ -2,7 +2,9 @@ import 'package:dio/dio.dart' as d;
 
 class UrlsWeather {
   static const String baseUrl = "http://dataservice.accuweather.com",
-      autoComplete = "$baseUrl/locations/v1/search";
+      autoComplete = "$baseUrl/locations/v1/search",
+      geoposition = "$baseUrl/locations/v1/cities/geoposition/search",
+      todayForecast = "$baseUrl/forecasts/v1/daily/1day";
 }
 
 class Methodcall {
