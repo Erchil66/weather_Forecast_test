@@ -6,5 +6,8 @@ class KeysCred {
    * on phone storage temporarily
    * 
    */
-  static const keyApi = "EI6bQIGiXtbpLSrLPdDFVXWHigTwUurX";
+
+  static const keyApi = "EI6bQIGiXtbpLSrLPdDFVXWHigTwUurX",
+      keyInput = "keyInput";
+  // apikeyUrl = "apikey=${SharedPrefs.read(keyInput, keyApi)}";
 }

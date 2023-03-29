@@ -7,5 +7,8 @@ class PalleteColors {
       pink = Color(0xFFFF5B63),
       grey = Color(0xFFB9BBEA),
       violet = Color(0xFF8A5FFF),
-      light = Color(0xFFFFD1D4);
+      light = Color(0xFFFFD1D4),
+      orange = Color(0xFFFF9F5A),
+      black = Colors.black,
+      whiteF7 = Color(0xFFF7F7F7);
 }
